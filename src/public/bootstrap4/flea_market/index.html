@@ -48,7 +48,16 @@
               <a class="nav-link text-dark" href="/bootstrap4/flea_market/todos.html">やることリスト</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#">アカウント</a>
+              <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  アカウント
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                  <button class="dropdown-item" type="button">Action</button>
+                  <button class="dropdown-item" type="button">Another action</button>
+                  <button class="dropdown-item" type="button">Something else here</button>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -205,6 +214,32 @@
         </div>
       </div>
     </main>
+    <nav class="d-flex justify-content-around fixed-bottom bg-white d-lg-none border-top">
+      <div>
+        <div class="text-center">
+          <i class="bi bi-house-door" style="font-size: 25px"></i>
+        </div>
+        <div style="font-size: 13px">ホーム</div>
+      </div>
+      <div>
+        <div class="text-center">
+          <i class="bi bi-bell" style="font-size: 25px"></i>
+        </div>
+        <div style="font-size: 13px">お知らせ</div>
+      </div>
+      <div>
+        <div class="text-center">
+          <i class="bi bi-camera" style="font-size: 25px"></i>
+        </div>
+        <div style="font-size: 13px">出品</div>
+      </div>
+      <div>
+        <div class="text-center">
+          <i class="bi bi-person" style="font-size: 25px"></i>
+        </div>
+        <div style="font-size: 13px">マイページ</div>
+      </div>
+    </nav>
     <footer class="bg-light text-dark mt-5 text-center">
       <div class="p-5">
         <span>hogehoge</span>
