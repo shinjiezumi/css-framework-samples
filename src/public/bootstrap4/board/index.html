@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+          integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <title>掲示板</title>
+  </head>
+  <body>
+    <div id="app">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/bootstrap4/board/index.html">掲示板</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Register</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <main class="container">
+        <div class="d-flex align-items-center mt-5">
+          <h1>掲示板一覧</h1>
+          <!-- 検索セレクトボックス -->
+          <div class="ml-auto boards__linkBox">
+            <a class="btn btn-outline-dark" href="#">新規作成</a>
+          </div>
+        </div>
+        <table class="table table-hover boards__table">
+          <thead class="thead-dark">
+            <tr>
+              <th>ID</th>
+              <th>タイトル</th>
+              <th>作成者</th>
+              <th>作成日時</th>
+              <th>更新日時</th>
+              <th></th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>1</th>
+              <td>タイトル1</td>
+              <td>ユーザー1</td>
+              <td>2022-09-22 22:48:42</td>
+              <td>2022-09-22 22:48:42</td>
+              <td>
+                <a class="btn btn-outline-dark" href="#">詳細</a>
+              </td>
+              <td>
+                <form action="#" method="post" style="display:inline">
+                  <input type="hidden" name="_token" value="xckgAw3cQbBvGFnay7cVVs0u4hqUH31TFBDNo1F8">
+                  <input type="hidden" name="_method" value="DELETE">
+                  <input type="submit" class="btn btn-outline-dark" value="削除"/>
+                </form>
+              </td>
+            </tr>
+            <tr>
+              <th>2</th>
+              <td>タイトル2</td>
+              <td>ユーザー2</td>
+              <td>2022-09-22 22:48:42</td>
+              <td>2022-09-22 22:48:42</td>
+              <td>
+                <a class="btn btn-outline-dark" href="#">詳細</a>
+              </td>
+              <td>
+                <form action="#" method="post" style="display:inline">
+                  <input type="hidden" name="_token" value="xckgAw3cQbBvGFnay7cVVs0u4hqUH31TFBDNo1F8">
+                  <input type="hidden" name="_method" value="DELETE">
+                  <input type="submit" class="btn btn-outline-dark" value="削除"/>
+                </form>
+              </td>
+            </tr>
+            <tr>
+              <th>3</th>
+              <td>タイトル3</td>
+              <td>ユーザー3</td>
+              <td>2022-09-22 22:48:42</td>
+              <td>2022-09-22 22:48:42</td>
+              <td>
+                <a class="btn btn-outline-dark" href="#">詳細</a>
+              </td>
+              <td>
+                <form action="#" method="post" style="display:inline">
+                  <input type="hidden" name="_token" value="xckgAw3cQbBvGFnay7cVVs0u4hqUH31TFBDNo1F8">
+                  <input type="hidden" name="_method" value="DELETE">
+                  <input type="submit" class="btn btn-outline-dark" value="削除"/>
+                </form>
+              </td>
+            </tr>
+            <tr>
+              <th>4</th>
+              <td>タイトル4</td>
+              <td>ユーザー4</td>
+              <td>2022-09-22 22:48:42</td>
+              <td>2022-09-22 22:48:42</td>
+              <td>
+                <a class="btn btn-outline-dark" href="#">詳細</a>
+              </td>
+              <td>
+                <form action="#" method="post" style="display:inline">
+                  <input type="hidden" name="_token" value="xckgAw3cQbBvGFnay7cVVs0u4hqUH31TFBDNo1F8">
+                  <input type="hidden" name="_method" value="DELETE">
+                  <input type="submit" class="btn btn-outline-dark" value="削除"/>
+                </form>
+              </td>
+            </tr>
+            <tr>
+              <th>5</th>
+              <td>タイトル5</td>
+              <td>ユーザー5</td>
+              <td>2022-09-22 22:48:42</td>
+              <td>2022-09-22 22:48:42</td>
+              <td>
+                <a class="btn btn-outline-dark" href="#">詳細</a>
+              </td>
+              <td>
+                <form action="#" method="post" style="display:inline">
+                  <input type="hidden" name="_token" value="xckgAw3cQbBvGFnay7cVVs0u4hqUH31TFBDNo1F8">
+                  <input type="hidden" name="_method" value="DELETE">
+                  <input type="submit" class="btn btn-outline-dark" value="削除"/>
+                </form>
+              </td>
+            </tr>
+            <tr>
+              <th>6</th>
+              <td>タイトル6</td>
+              <td>ユーザー6</td>
+              <td>2022-09-22 22:48:42</td>
+              <td>2022-09-22 22:48:42</td>
+              <td>
+                <a class="btn btn-outline-dark" href="#">詳細</a>
+              </td>
+              <td>
+                <form action="#" method="post" style="display:inline">
+                  <input type="hidden" name="_token" value="xckgAw3cQbBvGFnay7cVVs0u4hqUH31TFBDNo1F8">
+                  <input type="hidden" name="_method" value="DELETE">
+                  <input type="submit" class="btn btn-outline-dark" value="削除"/>
+                </form>
+              </td>
+            </tr>
+            <tr>
+              <th>7</th>
+              <td>タイトル7</td>
+              <td>ユーザー7</td>
+              <td>2022-09-22 22:48:42</td>
+              <td>2022-09-22 22:48:42</td>
+              <td>
+                <a class="btn btn-outline-dark" href="#">詳細</a>
+              </td>
+              <td>
+                <form action="#" method="post" style="display:inline">
+                  <input type="hidden" name="_token" value="xckgAw3cQbBvGFnay7cVVs0u4hqUH31TFBDNo1F8">
+                  <input type="hidden" name="_method" value="DELETE">
+                  <input type="submit" class="btn btn-outline-dark" value="削除"/>
+                </form>
+              </td>
+            </tr>
+            <tr>
+              <th>8</th>
+              <td>タイトル8</td>
+              <td>ユーザー8</td>
+              <td>2022-09-22 22:48:42</td>
+              <td>2022-09-22 22:48:42</td>
+              <td>
+                <a class="btn btn-outline-dark" href="#">詳細</a>
+              </td>
+              <td>
+                <form action="#" method="post" style="display:inline">
+                  <input type="hidden" name="_token" value="xckgAw3cQbBvGFnay7cVVs0u4hqUH31TFBDNo1F8">
+                  <input type="hidden" name="_method" value="DELETE">
+                  <input type="submit" class="btn btn-outline-dark" value="削除"/>
+                </form>
+              </td>
+            </tr>
+            <tr>
+              <th>9</th>
+              <td>タイトル9</td>
+              <td>ユーザー9</td>
+              <td>2022-09-22 22:48:42</td>
+              <td>2022-09-22 22:48:42</td>
+              <td>
+                <a class="btn btn-outline-dark" href="#">詳細</a>
+              </td>
+              <td>
+                <form action="#" method="post" style="display:inline">
+                  <input type="hidden" name="_token" value="xckgAw3cQbBvGFnay7cVVs0u4hqUH31TFBDNo1F8">
+                  <input type="hidden" name="_method" value="DELETE">
+                  <input type="submit" class="btn btn-outline-dark" value="削除"/>
+                </form>
+              </td>
+            </tr>
+            <tr>
+              <th>10</th>
+              <td>タイトル10</td>
+              <td>ユーザー10</td>
+              <td>2022-09-22 22:48:42</td>
+              <td>2022-09-22 22:48:42</td>
+              <td>
+                <a class="btn btn-outline-dark" href="#0">詳細</a>
+              </td>
+              <td>
+                <form action="#0" method="post" style="display:inline">
+                  <input type="hidden" name="_token" value="xckgAw3cQbBvGFnay7cVVs0u4hqUH31TFBDNo1F8">
+                  <input type="hidden" name="_method" value="DELETE">
+                  <input type="submit" class="btn btn-outline-dark" value="削除"/>
+                </form>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="d-flex justify-content-center">
+          <ul class="pagination" role="navigation">
+            <li class="page-item disabled" aria-disabled="true" aria-label="pagination.previous">
+              <span class="page-link text-secondary" aria-hidden="true">&lsaquo;</span>
+            </li>
+            <li class="page-item active" aria-current="page">
+              <span class="page-link bg-secondary text-white border-secondary">1</span>
+            </li>
+            <li class="page-item">
+              <a class="page-link text-secondary" href="/bootstrap4/board/index.html?page=2">2</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link text-secondary" href="/bootstrap4/board/index.html?page=3">3</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link text-secondary" href="/bootstrap4/board/index.html?page=4">4</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link text-secondary" href="/bootstrap4/board/index.html?page=5">5</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link text-secondary" href="/bootstrap4/board/index.html?page=2" rel="next" aria-label="pagination.next">&rsaquo;</a>
+            </li>
+          </ul>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
