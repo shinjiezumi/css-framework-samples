@@ -34,7 +34,7 @@
         <div class="d-flex align-items-center mt-4 mb-4">
           <div class="ml-auto boards__linkBox">
             <a class="btn btn-outline-dark" href="/bootstrap4/board/index.html">一覧</a>
-            <a class="btn btn-outline-dark" href="http://localhost:8000/boards/2/edit">編集</a>
+            <a class="btn btn-outline-dark" href="/bootstrap4/board/edit.html">編集</a>
           </div>
         </div>
         <div class="card">
@@ -48,10 +48,20 @@
         </div>
         <div class="p-comment__list">
           <div class="p-comment_listTitle">コメント</div>
+          <div class="p-comment__item">
+            <p>test</p>
+            <div class="p-comment__bottomLine">
+              <span>test</span>
+              <span>2023-03-11 12:48:53</span>
+              <form action="http://localhost:8000/boards/8/comments/1" method="post" style="display:inline">
+                <input type="hidden" name="_token" value="xffSQdWYbsDheIm9mp7xO9A6rqv9p6366o0mo786">        <input type="hidden" name="_method" value="DELETE">        <input type="submit" class="btn btn-outline-dark" value="削除">
+              </form>
+            </div>
+          </div>
         </div>
         <div class="p-comment__formBox">
           <p class="p-comment__formTitle">コメント記入</p>
-          <form action="http://localhost:8000/boards/2/comments" method="POST">
+          <form action="#" method="POST">
             <input type="hidden" name="_token" value="xffSQdWYbsDheIm9mp7xO9A6rqv9p6366o0mo786">
             <div class="form-group">
               <label for="name">名前</label>
