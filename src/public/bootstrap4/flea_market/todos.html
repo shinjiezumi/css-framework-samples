@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+          integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <title>やることリスト｜フリマサイト</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div>
+          <i class="bi bi-x-diamond-fill text-dark mr-2"></i>
+          <a class="navbar-brand" href="/bootstrap4/flea_market">フリマサイト</a>
+        </div>
+
+        <!-- 検索フォーム -->
+        <form class="form-inline my-2 my-lg-0 mr-auto" method="GET" action="#">
+          <div class="input-group">
+            <input name="keyword" class="form-control" type="text" placeholder="Search" aria-label="Search"
+                   aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="input-group-text bg-white" id="basic-addon2">
+                <i class="bi bi-search text-dark mr-2"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+
+        <div class="collapse navbar-collapse flex-grow-0">
+          <!-- ヘッダーナビ -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="/bootstrap4/flea_market/news.html">お知らせ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="/bootstrap4/flea_market/todos.html">やることリスト</a>
+            </li>
+            <li class="nav-item">
+              <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle text-dark bg-light border-0"
+                        data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                  アカウント
+                </button>
+                <div class="dropdown-menu dropdown-menu-right" style="width: 400px">
+                  <button class="dropdown-item d-flex justify-content-between align-items-center">
+                    <div class="d-flex">
+                      <div class="d-flex align-items-center">
+                        <img class="rounded-circle" src="https://placehold.jp/50x50.png" alt="">
+                      </div>
+                      <div>
+                        <div class="ml-3">
+                          <div class="font-weight-bold p-1 small">アカウント名</div>
+                          <div class="p-1 small">
+                            <i class="bi bi-star-fill" style="color: orange"></i>
+                            <i class="bi bi-star-fill" style="color: orange"></i>
+                            <i class="bi bi-star-fill" style="color: orange"></i>
+                            <i class="bi bi-star-fill" style="color: orange"></i>
+                            <i class="bi bi-star"></i>
+                            <a href="#">200</a>
+                          </div>
+                          <div class="p-1 small">
+                            <i class="bi bi-shield-fill-check" style="color: green"></i>
+                            <span>本人確認済</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <span>＞</span>
+                  </button>
+                  <hr>
+                  <button class="dropdown-item d-flex justify-content-between">
+                    <span>マイページ</span>
+                    <span>＞</span>
+                  </button>
+                  <hr>
+                  <button class="dropdown-item d-flex justify-content-between">
+                    <span>いいね！した商品</span>
+                    <span>＞</span>
+                  </button>
+                  <hr>
+                  <button class="dropdown-item d-flex justify-content-between">
+                    <span>出品した商品</span>
+                    <span>＞</span>
+                  </button>
+                  <hr>
+                  <button class="dropdown-item d-flex justify-content-between">
+                    <span>購入した商品</span>
+                    <span>＞</span>
+                  </button>
+                  <hr>
+                  <button class="dropdown-item d-flex justify-content-between">
+                    <span>ログアウト</span>
+                    <span>＞</span>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-primary ml-2" href="#">出品</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- コンテンツ-->
+    <main class="container min-vh-100">
+      <div class="mt-3 h5 d-flex justify-content-center">
+        <h2>やることリスト</h2>
+      </div>
+      <div class="d-flex justify-content-center mt-5">
+        <img src="https://placehold.jp/80x80.png" alt="">
+      </div>
+      <div class="d-flex justify-content-center mt-5">
+        <p class="h5">現在、やることリストはありません</p>
+      </div>
+      <div class="d-flex justify-content-center mt-2">
+        <div class="text-center">
+          <div>ここでは、取引上でやることが表示されます</div>
+          <div>（例：発送してください）</div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-light text-dark mt-5 text-center">
+      <div class="p-5">
+        <span>hogehoge</span>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"></script>
+  </body>
+</html>

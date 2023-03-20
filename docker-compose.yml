@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    build: docker/nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./docker/nginx/conf.d:/etc/nginx/conf.d
+      - ./src/public:/var/www/html/public
+      - ./logs:/var/log/nginx/
+    environment:
+      TZ: Asia/Tokyo
